@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+  <h1>Cheese Please!</h1>
+  <button id="showNew">New Cheese!</button>
+  <button id="showList">View Cheeses!</button>
+
+  <div class="cheese-list"></div>
+  <div class="new-cheese" hidden>
+    <input type="text" id="name" placeholder="Name">
+    <input type="text" id="origin" placeholder="Origin">
+    <input type="text" id="color" placeholder="Color">
+    <input type="number" id="stink_level" placeholder="Stink Level">
+    <button id="create-cheese">Create Cheese</button>
+  </div>
+  <div class="edit-cheese" hidden>
+    <input type="text" id="name_edit" placeholder="Name">
+    <input type="text" id="origin_edit" placeholder="Origin">
+    <input type="text" id="color_edit" placeholder="Color">
+    <input type="number" id="stink_level_edit" placeholder="Stink Level">
+    <button id="edit-cheese">Edit Cheese</button>
+  </div>
+</body>
+</html>
